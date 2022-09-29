@@ -1,11 +1,11 @@
-# json-validator
+# json-duplicate-validator
 A json handler that has an option to check for duplicated keys
 
 ## Install
-`npm install json-validator`
+`npm install json-duplicate-validator`
 ## Usage
 ```js
-var jsonHandler = require('json-validator');
+var jsonHandler = require('json-duplicate-validator');
 
 // Returns error or undefined if json is valid
 jsonHandler.validate(jsonString, allowDuplicatedKeys);

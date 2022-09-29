@@ -1,6 +1,6 @@
 {
   "author": "trinh.nck",
-  "name": "json-validator",
+  "name": "json-duplicate-validator",
   "description": "A json handler that has an option to check for duplicated keys",
   "version": "1.0.0",
   "repository": {
