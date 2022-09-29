@@ -7,8 +7,8 @@ module.exports = {
 /**
  * Validates a json string.
  * Errors are returned
- * @param jsonString
- * @param allowDuplicatedKeys
+ * @param {string} jsonString
+ * @param {boolean | undefined} allowDuplicatedKeys
  * @returns {String} error. undefined if no error
  */
 function validate(jsonString, allowDuplicatedKeys) {
@@ -29,8 +29,8 @@ function validate(jsonString, allowDuplicatedKeys) {
 
 /**
  * Parses a json. Errors are thrown if any
- * @param jsonString
- * @param allowDuplicatedKeys
+ * @param {string} jsonString
+ * @param {boolean | undefined} allowDuplicatedKeys
  * @returns {Object}
  */
 function parse(jsonString, allowDuplicatedKeys) {

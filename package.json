@@ -2,7 +2,7 @@
   "author": "trinh.nck",
   "name": "json-duplicate-validator",
   "description": "A json handler that has an option to check for duplicated keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KhanhTrinh2094/json-duplicate-key-handle.git"
@@ -26,6 +26,12 @@
   "license": "MIT",
   "main": "index.js",
   "types": "index.d.ts",
+  "contributors": [
+    {
+      "name": "Trong Nguyen",
+      "email": "trongitnlu@gmail.com"
+    }
+  ],
   "maintainers": [
     {
       "name": "trinh.nck",
