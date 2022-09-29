@@ -1,3 +1,6 @@
 .idea/
 .travis.yml
 node_modules
+test
+/test
+gulpfile.js
